@@ -1,0 +1,55 @@
+.header {
+   width: 100%;
+   z-index: 10;
+   position: absolute;
+   left: 0;
+   top: 0;
+   &__container {
+      display: flex;
+      min-height: 104px;
+      align-items: center;
+      padding: 5px 0; // перестраховка при малом вероятном залипании сверху, снизу
+   }
+   &__menu {
+      margin: 0 0 0 515px;
+   }
+   &__buttons {
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+   }
+   &__button {
+      /*-------------------------
+      Центруем весь контент в кнопке
+      */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /*-------------------------*/
+      min-height: 44px;
+      padding: 5px 36px; //5px padding - безопасности
+      font-weight: 500;
+      font-size: 15px;
+      &:first-child {
+         margin: 0px 18px 0px 0px;
+      }
+   }
+}
+
+.menu {
+   &__list {
+      display: flex;
+      flex-wrap: wrap; //накладывается друг на друга при уменьшении размера ширины(кроссбрауз)
+   }
+   &__item {
+      margin: 0px 35px 0px 0px;
+   }
+   &__link {
+      color: $clr-grey;
+      font-weight: 500;
+      line-height: 119%; // (line-height/font-size)*100 calc(19 / 16 * 100%)
+      &:active {
+         color: $clr-black;
+      }
+   }
+}

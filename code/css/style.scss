@@ -1,0 +1,43 @@
+@import "_variable";
+@import "_mixin";
+@import "nullstyle/_nullstyle";
+@import "header/_header";
+@import "_page";
+@import "main/_main-block";
+body {
+   font-family: "Playfair Display";
+}
+
+.container {
+   max-width: 1330px;
+   padding: 0 10px;
+   margin: 0 auto;
+}
+
+//  .ibg {
+//     position: relative;
+//     &img {
+//        position: absolute;
+//        width: 100%;    height: 100%;
+//        top: 0;
+//        left: 0;
+//        object-fit: cover;
+//     }
+//  }
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   display: flex; // проверить
+   flex-direction: column;
+}
+
+.border {
+   @include border($clr-orange);
+}
+
+.bg {
+   @include bg($clr-orange, $clr-white);
+}
+
+

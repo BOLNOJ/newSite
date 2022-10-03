@@ -1,0 +1,12 @@
+@mixin bg($clr-orange, $clr-white) {
+   background-color: $clr-orange;
+   color: $clr-white;
+   border-radius: 8px;
+   
+}
+
+@mixin border($clr-orange) {
+   border: 1px solid $clr-orange;
+   color: $clr-orange;
+   border-radius: 8px;
+}
