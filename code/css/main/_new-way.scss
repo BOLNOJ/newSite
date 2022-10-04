@@ -1,0 +1,33 @@
+.new-way {
+   &__container {
+      display: flex;
+      align-items: center;
+   }
+   &__image {
+   }
+   &__body {
+      padding: 0px 0px 0px 16%;
+      & > *:not(last-child) {
+         // > - обращаемся ко всем объектам 1ого уровня, * - любой тег
+         margin: 0px 0px 30px 0px;
+      }
+   }
+   &__title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: calc(50 / 36 * 100%);
+      color: $clr-black;
+   }
+   &__sub-title {
+      font-weight: 300;
+      font-size: 17px;
+      line-height: calc(30 / 17 * 100%);
+      color: $clr-grey-4;
+   }
+   &__link {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: calc(60 / 16 * 100%);
+      padding: 5px 60px;
+   }
+}
