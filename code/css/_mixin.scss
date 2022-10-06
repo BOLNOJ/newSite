@@ -9,3 +9,17 @@
    color: $clr-orange;
    border-radius: 8px;
 }
+
+@mixin title($clr-black) {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: calc(50 / 36 * 100%);
+   color: $clr-black;
+}
+
+@mixin sub-title($clr-grey) {
+   font-weight: 300;
+   font-size: 17px;
+   line-height: calc(30 / 17 * 100%);
+   color: $clr-grey;
+}

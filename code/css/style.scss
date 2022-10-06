@@ -1,11 +1,13 @@
 @import "_variable";
 @import "_mixin";
 @import "nullstyle/_nullstyle";
-@import "header/_header";
+@import "hd-ft/_header";
 @import "_page";
 @import "main/_main-block";
 @import "main/_new-way";
 @import "main/_catalog";
+@import "main/_guide";
+
 
 body {
    font-family: "Playfair Display";
@@ -41,6 +43,14 @@ body {
 
 .bg {
    @include bg($clr-orange, $clr-white);
+}
+
+.title {
+   @include title($clr-black);
+}
+
+.sub-title {
+   @include sub-title($clr-grey);
 }
 
 

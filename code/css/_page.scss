@@ -1,11 +1,14 @@
 .page {
    &__main-block {
-      padding-bottom: 100px;
+      padding-bottom: $pb100px;
    }
    &__new-way {
-      padding-bottom: 100px;
+      padding-bottom: $pb100px;
    }
    &__catalog {
-      padding-bottom: 100px;
+      padding-bottom: $pb100px;
+   }
+   &__guide {
+      padding-bottom: $pb100px;
    }
 }

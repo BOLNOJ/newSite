@@ -1,9 +1,11 @@
 .catalog {
    &__container {
+      // some code
    }
    &__wrap {
       display: flex;
       justify-content: space-between;
+      padding: 0 0 56px 0;
    }
    &__title {
       font-weight: 700;
