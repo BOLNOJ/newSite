@@ -3,7 +3,6 @@
       display: flex;
    }
    &__body {
-      
       padding: 200px 0px 0px 0px;
       & > *:not(last-child) {
          // > - обращаемся ко всем объектам 1ого уровня, * - любой тег
@@ -15,10 +14,9 @@
       font-size: 64px;
       line-height: calc(80 / 64 * 100%);
       color: $clr-black;
-      mix-blend-mode: normal;
       max-width: 356px;
    }
-   &__text {
+   &__sub-title {
       font-weight: 600;
       font-size: 22px;
       line-height: calc(27 / 22 * 100%);
@@ -37,7 +35,7 @@
       border-radius: 6px;
       font-weight: 400;
       font-size: 15px;
-      line-height: calc(32/15*100%);
+      line-height: calc(32 / 15 * 100%);
       color: $clr-grey-3;
       // &:not(:nth-child(odd)) {
       //    margin-left: 10px;
@@ -49,7 +47,7 @@
       box-sizing: border-box;
    }
    &__link {
-            /*-------------------------
+      /*-------------------------
       Центруем весь контент в кнопке
       */
       display: flex;
@@ -67,8 +65,8 @@
       // height: 100%;
       // top: 0;
       // left: 0;
-      padding: 100px 0px 100px 0px;
-      // &img {
+      padding: 100px 0px 0px 0px;
+      // &>img {
       //    object-position: right;
       // }
    }
