@@ -1,7 +1,4 @@
 .catalog {
-   &__container {
-      // some code
-   }
    &__wrap {
       display: flex;
       justify-content: space-between;
@@ -12,8 +9,6 @@
       font-size: 36px;
       line-height: calc(50 / 36 * 100%);
       color: $clr-black;
-   }
-   &__button {
    }
    &__link {
       color: $clr-orange;
@@ -28,7 +23,5 @@
    &__body {
       display: flex;
       justify-content: space-between;
-   }
-   &__image {
    }
 }
