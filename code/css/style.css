@@ -151,6 +151,124 @@ h1, h2, h3, h4, h5, h6 {
   color: #202336;
 }
 
+.footer {
+  font-family: Mulish-light;
+  background-color: #F9F9FB;
+  height: 482px;
+  width: 100%;
+}
+
+.footer__body {
+  padding: 70px 0 0 0;
+}
+
+.footer__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__logo {
+  padding: 0 0 26px 0;
+}
+
+.footer__text {
+  max-width: 391px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: calc(28 / 18 * 100%);
+  padding: 0 0 55px 0;
+  color: #848484;
+}
+
+.footer__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__row {
+  margin: 0 -15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.33%;
+          flex: 0 1 33.33%;
+}
+
+.footer__column > *:not(last-child) {
+  padding: 0 58px;
+}
+
+.footer__label {
+  font-weight: 900;
+  font-size: 19px;
+  line-height: calc(60 / 19 * 100%);
+  color: #000000;
+  margin: 0 0 20px 0;
+}
+
+.footer__line {
+  max-width: 100%;
+  height: 0.6px;
+  background: #c4c4c4;
+  margin: 80px 0 0 0;
+}
+
+.menu-footer__item:not(:last-child) {
+  margin: 0 0 15px 0;
+}
+
+.menu-footer__link:hover {
+  color: #fb8f1d;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 30px 0 0 0;
+}
+
+.social__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social__item > img {
+  display: block;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+}
+
+.social__item > img:not(:last-child) {
+  margin: 0 15px 0 0;
+}
+
+.social__copy {
+  max-width: 391px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: calc(28 / 17 * 100%);
+  color: #848484;
+}
+
 .page__main-block {
   padding-bottom: 100px;
 }
@@ -164,6 +282,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page__guide {
+  padding-bottom: 100px;
+}
+
+.page__review {
+  padding-bottom: 100px;
+}
+
+.page__trend {
   padding-bottom: 100px;
 }
 
@@ -325,7 +451,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .guide__body {
-  padding: 0 9% 0 14%;
+  padding: 0 9% 0 0%;
 }
 
 .guide__body > *:not(last-child) {
@@ -337,6 +463,101 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   line-height: calc(60 / 16 * 100%);
   padding: 5px 40px;
+}
+
+.guide__image > img {
+  border-radius: 50px;
+}
+
+.review__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.review__body > *:not(last-child) {
+  margin: 0px 0px 30px 0px;
+}
+
+.review__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(50 / 36 * 100%);
+}
+
+.review__sub-title {
+  font-family: Mulish-italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+  max-width: 450px;
+}
+
+.review__name > h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: calc(48 / 22 * 100%);
+}
+
+.review__name > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(48 / 18 * 100%);
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.trend__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.trend__card {
+  max-width: 266px;
+}
+
+.trend__card > *:not(last-child) {
+  margin: 0px 0px 30px 0px;
+}
+
+.trend__title {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: calc(30 / 19 * 100%);
+  color: #000000;
+}
+
+.trend__sub-title {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #7D7987;
+}
+
+.trend__link {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: calc(26 / 15 * 100%);
+  color: #fb8f1d;
+}
+
+.trend__link:hover {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: Mulish-light;
+  src: url(../fonts/Mulish/static/Mulish-Light.ttf);
+}
+
+@font-face {
+  font-family: Mulish-italic;
+  src: url(../fonts/Mulish/static/Mulish-Italic.ttf);
 }
 
 body {
@@ -381,6 +602,7 @@ body {
 }
 
 .sub-title {
+  max-width: 450px;
   font-weight: 300;
   font-size: 17px;
   line-height: calc(30 / 17 * 100%);

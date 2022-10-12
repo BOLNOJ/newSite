@@ -1,0 +1,38 @@
+.review {
+   &__container {
+      display: flex;
+      justify-content: space-around;
+   }
+   &__body {
+      & > *:not(last-child) {
+         // > - обращаемся ко всем объектам 1ого уровня, * - любой тег
+         margin: 0px 0px 30px 0px;
+      }
+   }
+   &__title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: calc(50 / 36 * 100%);
+   }
+   &__sub-title {
+      font-family: Mulish-italic;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 150%; //calc(36 / 24 * 10%);
+      color: $clr-main-black;
+      max-width: 450px;
+   }
+   &__name {
+      & > h3 {
+         font-weight: 700;
+         font-size: 22px;
+         line-height: calc(48 / 22 * 100%);
+      }
+      & > p {
+         font-weight: 400;
+         font-size: 18px;
+         line-height: calc(48 / 18 * 100%);
+         color: rgba(0, 0, 0, 0.85);
+      }
+   }
+}

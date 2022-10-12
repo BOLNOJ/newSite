@@ -2,11 +2,23 @@
 @import "_mixin";
 @import "nullstyle/_nullstyle";
 @import "hd-ft/_header";
+@import "hd-ft/_footer";
 @import "_page";
 @import "main/_main-block";
 @import "main/_new-way";
 @import "main/_catalog";
 @import "main/_guide";
+@import "main/_review";
+@import "main/_trend";
+
+@font-face {
+   font-family: Mulish-light;
+   src: url(../fonts/Mulish/static/Mulish-Light.ttf);
+}
+@font-face {
+   font-family: Mulish-italic;
+   src: url(../fonts/Mulish/static/Mulish-Italic.ttf);
+}
 
 
 body {
