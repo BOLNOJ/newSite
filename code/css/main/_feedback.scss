@@ -1,0 +1,31 @@
+.feedback {
+   &__container {
+      display: flex;
+      align-items: center;
+   }
+   &__body {
+      padding: 0px 36% 0 0;
+      & > *:not(:last-child) {
+         margin: 0 0 20px 0;
+      }
+   }
+   &__sub-title {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: calc(36 / 24 * 100%);
+      color: $clr-black;
+   }
+   &__info {
+      & > h4 {
+         font-weight: 700;
+         font-size: 22px;
+         line-height: calc(48 / 22 * 100%);
+         color: $clr-black;
+      }
+      & > p {
+         font-weight: 400;
+         font-size: 18px;
+         line-height: calc(48 / 18 * 100%);
+      }
+   }
+}

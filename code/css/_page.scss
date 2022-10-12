@@ -1,15 +1,21 @@
 .page {
    &__main-block {
-      padding-bottom: $pb100px;
+      padding-bottom: $pb150px;
    }
    &__new-way {
-      padding-bottom: $pb100px;
+      padding-bottom: $pb150px;
    }
    &__catalog {
-      padding-bottom: $pb100px;
+      padding-bottom: $pb150px;
    }
    &__guide {
-      padding-bottom: $pb100px;
+      padding-bottom: $pb150px;
+   }
+   &__feedback {
+      padding-bottom: $pb150px;
+   }
+   &__trend {
+      padding-bottom: $pb150px;
    }
    &__review {
       padding-bottom: $pb100px;
